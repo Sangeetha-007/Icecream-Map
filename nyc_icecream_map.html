@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b6576aa9d2ef4b78b6752720301efeff {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b6576aa9d2ef4b78b6752720301efeff" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b6576aa9d2ef4b78b6752720301efeff = L.map(
+                "map_b6576aa9d2ef4b78b6752720301efeff",
+                {
+                    center: [40.7128, -74.006],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d3720b75fe5594708fdcb63ff219d248 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_d3720b75fe5594708fdcb63ff219d248.addTo(map_b6576aa9d2ef4b78b6752720301efeff);
+        
+    
+            var marker_411cafca773e044e99fecde68e1b9bb5 = L.marker(
+                [40.7267153, -73.9996692],
+                {
+}
+            ).addTo(map_b6576aa9d2ef4b78b6752720301efeff);
+        
+    
+            var icon_ba0e924f70546c73f09435894f8d287a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "pink",
+  "iconColor": "white",
+  "icon": "ice-cream",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2a1c270057490a88e05241cfc4f7fb18 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_21f28e4cb4a25b5e4a4f74ecb04715e7 = $(`<div id="html_21f28e4cb4a25b5e4a4f74ecb04715e7" style="width: 100.0%; height: 100.0%;"><b>Morgenstern’s Finest Ice Cream</b><br>88 W Houston St, New York, NY 10012, USA</div>`)[0];
+                popup_2a1c270057490a88e05241cfc4f7fb18.setContent(html_21f28e4cb4a25b5e4a4f74ecb04715e7);
+            
+        
+
+        marker_411cafca773e044e99fecde68e1b9bb5.bindPopup(popup_2a1c270057490a88e05241cfc4f7fb18)
+        ;
+
+        
+    
+    
+                marker_411cafca773e044e99fecde68e1b9bb5.setIcon(icon_ba0e924f70546c73f09435894f8d287a);
+            
+    
+            var marker_9483d0d773a36695f50c9edb1aa4620d = L.marker(
+                [40.7153077, -73.998197],
+                {
+}
+            ).addTo(map_b6576aa9d2ef4b78b6752720301efeff);
+        
+    
+            var icon_143c46ad2b89995fd946ee633c71fa89 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "pink",
+  "iconColor": "white",
+  "icon": "ice-cream",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_37230fb2c684f7eff4771dc0891e6ad3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2e5dc1b1a9486b442bb88b075459aa21 = $(`<div id="html_2e5dc1b1a9486b442bb88b075459aa21" style="width: 100.0%; height: 100.0%;"><b>The Original Chinatown Ice Cream Factory</b><br>65 Bayard St, New York, NY 10013, USA</div>`)[0];
+                popup_37230fb2c684f7eff4771dc0891e6ad3.setContent(html_2e5dc1b1a9486b442bb88b075459aa21);
+            
+        
+
+        marker_9483d0d773a36695f50c9edb1aa4620d.bindPopup(popup_37230fb2c684f7eff4771dc0891e6ad3)
+        ;
+
+        
+    
+    
+                marker_9483d0d773a36695f50c9edb1aa4620d.setIcon(icon_143c46ad2b89995fd946ee633c71fa89);
+            
+    
+            var marker_7d4f7f2ea718c543673c408a067dfabe = L.marker(
+                [40.7222645, -73.9870761],
+                {
+}
+            ).addTo(map_b6576aa9d2ef4b78b6752720301efeff);
+        
+    
+            var icon_5a84a8db948ed32cc4b636424a57ef73 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "pink",
+  "iconColor": "white",
+  "icon": "ice-cream",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4e3c06e8b76ff3cfdb6adc7aebe5bdee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0de99faf3003c6c559c70ad1b00cd8ff = $(`<div id="html_0de99faf3003c6c559c70ad1b00cd8ff" style="width: 100.0%; height: 100.0%;"><b>il laboratorio del gelato</b><br>188 Ludlow St, New York, NY 10002, USA</div>`)[0];
+                popup_4e3c06e8b76ff3cfdb6adc7aebe5bdee.setContent(html_0de99faf3003c6c559c70ad1b00cd8ff);
+            
+        
+
+        marker_7d4f7f2ea718c543673c408a067dfabe.bindPopup(popup_4e3c06e8b76ff3cfdb6adc7aebe5bdee)
+        ;
+
+        
+    
+    
+                marker_7d4f7f2ea718c543673c408a067dfabe.setIcon(icon_5a84a8db948ed32cc4b636424a57ef73);
+            
+    
+            var marker_a3bb77eafa4c2ad313953b8d69db0b76 = L.marker(
+                [40.7031879, -73.9922568],
+                {
+}
+            ).addTo(map_b6576aa9d2ef4b78b6752720301efeff);
+        
+    
+            var icon_f2a504d24d50ce7f9b69a2b809216a08 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "pink",
+  "iconColor": "white",
+  "icon": "ice-cream",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bbe48098b59fd6876a7863f950827c3d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3aeefb67547584d9a4b02c3b9c12f46d = $(`<div id="html_3aeefb67547584d9a4b02c3b9c12f46d" style="width: 100.0%; height: 100.0%;"><b>OddFellows Ice Cream Co.</b><br>44 Water St, Brooklyn, NY 11201, USA</div>`)[0];
+                popup_bbe48098b59fd6876a7863f950827c3d.setContent(html_3aeefb67547584d9a4b02c3b9c12f46d);
+            
+        
+
+        marker_a3bb77eafa4c2ad313953b8d69db0b76.bindPopup(popup_bbe48098b59fd6876a7863f950827c3d)
+        ;
+
+        
+    
+    
+                marker_a3bb77eafa4c2ad313953b8d69db0b76.setIcon(icon_f2a504d24d50ce7f9b69a2b809216a08);
+            
+    
+            var marker_38e511d517459531d06c7129e1f39cdf = L.marker(
+                [40.6786161, -73.9683104],
+                {
+}
+            ).addTo(map_b6576aa9d2ef4b78b6752720301efeff);
+        
+    
+            var icon_4db14589ef0a79d44b0b573b00d657a3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "pink",
+  "iconColor": "white",
+  "icon": "ice-cream",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_79e92a1759c48ddf89ca108de771cf6f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2be4dc53f420b7ae9654cad107e234f2 = $(`<div id="html_2be4dc53f420b7ae9654cad107e234f2" style="width: 100.0%; height: 100.0%;"><b>Ample Hills Creamery</b><br>623 Vanderbilt Ave, Brooklyn, NY 11238, USA</div>`)[0];
+                popup_79e92a1759c48ddf89ca108de771cf6f.setContent(html_2be4dc53f420b7ae9654cad107e234f2);
+            
+        
+
+        marker_38e511d517459531d06c7129e1f39cdf.bindPopup(popup_79e92a1759c48ddf89ca108de771cf6f)
+        ;
+
+        
+    
+    
+                marker_38e511d517459531d06c7129e1f39cdf.setIcon(icon_4db14589ef0a79d44b0b573b00d657a3);
+            
+    
+            var marker_0b710ee5677c84da019a434cdbc43468 = L.marker(
+                [40.6827326, -73.99339],
+                {
+}
+            ).addTo(map_b6576aa9d2ef4b78b6752720301efeff);
+        
+    
+            var icon_339608f23648893add5dce2b5731a1cc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "pink",
+  "iconColor": "white",
+  "icon": "ice-cream",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_772a96e2c7b172747d4cbb44187aba66 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a3a7333ff062d36a282a321871b3957b = $(`<div id="html_a3a7333ff062d36a282a321871b3957b" style="width: 100.0%; height: 100.0%;"><b>Malai</b><br>268 Smith St, Brooklyn, NY 11231, USA</div>`)[0];
+                popup_772a96e2c7b172747d4cbb44187aba66.setContent(html_a3a7333ff062d36a282a321871b3957b);
+            
+        
+
+        marker_0b710ee5677c84da019a434cdbc43468.bindPopup(popup_772a96e2c7b172747d4cbb44187aba66)
+        ;
+
+        
+    
+    
+                marker_0b710ee5677c84da019a434cdbc43468.setIcon(icon_339608f23648893add5dce2b5731a1cc);
+            
+    
+            var marker_ef4725e8250522fdde685272f80836ba = L.marker(
+                [40.7179178, -73.9988723],
+                {
+}
+            ).addTo(map_b6576aa9d2ef4b78b6752720301efeff);
+        
+    
+            var icon_4c7db1e469ecc68024a177b96a5b19be = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "pink",
+  "iconColor": "white",
+  "icon": "ice-cream",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_81c4ce40c4dbe30d492ee4d35143c8c8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9655a54082c4f3a601083393e98e3213 = $(`<div id="html_9655a54082c4f3a601083393e98e3213" style="width: 100.0%; height: 100.0%;"><b>Taiyaki NYC Japanese Ice Cream</b><br>119 Baxter St, New York, NY 10013, USA</div>`)[0];
+                popup_81c4ce40c4dbe30d492ee4d35143c8c8.setContent(html_9655a54082c4f3a601083393e98e3213);
+            
+        
+
+        marker_ef4725e8250522fdde685272f80836ba.bindPopup(popup_81c4ce40c4dbe30d492ee4d35143c8c8)
+        ;
+
+        
+    
+    
+                marker_ef4725e8250522fdde685272f80836ba.setIcon(icon_4c7db1e469ecc68024a177b96a5b19be);
+            
+    
+            var marker_fc6d21369541ed20ca0f32da34a43dc5 = L.marker(
+                [40.73098, -73.9893617],
+                {
+}
+            ).addTo(map_b6576aa9d2ef4b78b6752720301efeff);
+        
+    
+            var icon_1bd6d2c5ea854e7b71e164241d249fc1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "pink",
+  "iconColor": "white",
+  "icon": "ice-cream",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_13c59c13816cc8b20b20abed82e152f3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fdfe7d358ad23f920b89939f87c6bc12 = $(`<div id="html_fdfe7d358ad23f920b89939f87c6bc12" style="width: 100.0%; height: 100.0%;"><b>Sundaes and Cones</b><br>95 E 10th St, New York, NY 10003, USA</div>`)[0];
+                popup_13c59c13816cc8b20b20abed82e152f3.setContent(html_fdfe7d358ad23f920b89939f87c6bc12);
+            
+        
+
+        marker_fc6d21369541ed20ca0f32da34a43dc5.bindPopup(popup_13c59c13816cc8b20b20abed82e152f3)
+        ;
+
+        
+    
+    
+                marker_fc6d21369541ed20ca0f32da34a43dc5.setIcon(icon_1bd6d2c5ea854e7b71e164241d249fc1);
+            
+    
+            var marker_1a8bf6d6cbda75068304a00e5b9e1975 = L.marker(
+                [40.8040686, -73.9478481],
+                {
+}
+            ).addTo(map_b6576aa9d2ef4b78b6752720301efeff);
+        
+    
+            var icon_ee35df92175642bbfdf82650d2a6cf06 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "pink",
+  "iconColor": "white",
+  "icon": "ice-cream",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f42cbfab276060be4b524ee65e507a93 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f4b59a385e1742c0ea3afedead5c452d = $(`<div id="html_f4b59a385e1742c0ea3afedead5c452d" style="width: 100.0%; height: 100.0%;"><b>Sugar Hill Creamery</b><br>184 Malcolm X Blvd, New York, NY 10026, USA</div>`)[0];
+                popup_f42cbfab276060be4b524ee65e507a93.setContent(html_f4b59a385e1742c0ea3afedead5c452d);
+            
+        
+
+        marker_1a8bf6d6cbda75068304a00e5b9e1975.bindPopup(popup_f42cbfab276060be4b524ee65e507a93)
+        ;
+
+        
+    
+    
+                marker_1a8bf6d6cbda75068304a00e5b9e1975.setIcon(icon_ee35df92175642bbfdf82650d2a6cf06);
+            
+</script>
+</html>
